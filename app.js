@@ -263,6 +263,8 @@
 //   console.log("vas unos je ", unos);
 // }
 
+// -----------------------------------------------------------------------------------------------------------------
+
 // pocetnaVrednost = parseInt(prompt("Unesi pocetnu vrednost"));
 // krajnjaVrednost = parseInt(prompt("Unesi krajnju vrednost"));
 
@@ -282,6 +284,8 @@
 
 // zbir = 25
 
+// -----------------------------------------------------------------------------------------------------------------
+
 // pocetnaV = parseInt(prompt("Unesi pocetak"));
 // krajnjaV = parseInt(prompt("Unesi kraj"));
 
@@ -296,4 +300,73 @@
 // console.log(brojevi);
 // console.log(zbir);
 
-a = ["Banana", "Jabuka", "Ananas", "Grozdje"];
+// -----------------------------------------------------------------------------------------------------------------
+
+// duzinaNiza = parseInt(prompt("Unesite duzinu"));
+
+// array = [];
+
+// for (let j = 0; j < duzinaNiza; j++) {
+//   el = prompt(`unesi element ${j + 1}.`);
+
+//   if (el.length > 4) {
+//     array.push(el);
+//   }
+// }
+
+// for (i = 0; i < array.length; i++) {
+//   switch (array[i]) {
+//     case "Banana":
+//       console.log("Voce je zuto");
+//       break;
+//     case "Jabuka":
+//       console.log("voce je crveno");
+//       break;
+
+//     case "Grozdje":
+//       console.log("voce je zeleno");
+//       break;
+
+//     default:
+//       console.log("Nepoznato");
+//   }
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// cars = ["BMW", "Volvo", "Mini"];
+
+// for (i of cars) {
+//   console.log(i);
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// duzina = parseInt(prompt("Unesi duzinu niza"));
+
+// brojevi = [];
+
+// for (i = 0; i < duzina; i++) {
+//   broj = parseInt(prompt("Unesi broj"));
+//   brojevi.push(broj);
+// }
+
+// maxNum = brojevi[0];
+
+// for (broj of brojevi) {
+//   if (broj > maxNum) {
+//     maxNum = broj;
+//   }
+// }
+
+// console.log(maxNum);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// Domaci 7,11,2021:
+
+// Uneti pocetak i kraj ,sve broje od pocetka do kraja dodati u niz.
+// Proci kroz niz i ako je broj paran zameniti ga sa "paran" a ako je neapran zameniti ga sa "neparan",
+// ako je 0 ostaje 0
+
+// -----------------------------------------------------------------------------------------------------------------
