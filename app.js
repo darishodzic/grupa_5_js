@@ -370,3 +370,48 @@
 // ako je 0 ostaje 0
 
 // -----------------------------------------------------------------------------------------------------------------
+
+// pocetnaVrednost = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnjaVrednost = parseInt(prompt("Unesi krajnu vrednost"));
+// array = [];
+// for (i = pocetnaVrednost; i <= krajnjaVrednost; i++) {
+//   array.push(i);
+// }
+// console.log(array);
+
+// for (i = 0; i < array.length; i++) {
+//   if (array[i] % 2 === 0) {
+//     array[i] = "paran";
+//   } else {
+//     array[i] = "neparan";
+//   }
+// }
+
+// console.log(array);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// tekst = "";
+
+// for (i = 1; i < 6; i++) {
+//   for (j = 0; j < i; j++) {
+//     tekst += "*";
+//   }
+//   console.log(tekst);
+//   tekst = "";
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// for (i = 5; i > 0; i--) {
+//   console.log(i);
+// }
+
+// rec = "Umejr";
+// recr = "";
+
+// for (i = rec.length - 1; i >= 0; i--) {
+//   recr += rec[i];
+// }
+// console.log(rec);
+// console.log(recr);
