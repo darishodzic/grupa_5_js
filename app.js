@@ -432,40 +432,104 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-happy_nums = [];
+// happy_nums = [];
 
-new_num = 0;
+// new_num = 0;
 
-start = 4;
+// start = 4;
 
-pocetniBroj = 1;
+// pocetniBroj = 1;
 
-// limit = 5
-limit = parseInt(prompt("Unesite koliko happy numbera zelite da dobijete:"));
+// // limit = 5
+// limit = parseInt(prompt("Unesite koliko happy numbera zelite da dobijete:"));
 
-while (true) {
-  if (happy_nums.length === limit) {
-    break;
-  }
-  num = pocetniBroj;
-  while (true) {
-    for (j = 0; j < String(num).length; j++) {
-      new_num += parseInt(String(num)[j]) ** 2;
-    }
-    if (new_num === 1) {
-      happy_nums.push(pocetniBroj);
-      new_num = 0;
-      break;
-    } else if (new_num === start) {
-      new_num = 0;
-      break;
-    }
-    num = new_num;
-    new_num = 0;
-  }
-  pocetniBroj++;
-}
+// while (true) {
+//   if (happy_nums.length === limit) {
+//     break;
+//   }
+//   num = pocetniBroj;
+//   while (true) {
+//     for (j = 0; j < String(num).length; j++) {
+//       new_num += parseInt(String(num)[j]) ** 2;
+//     }
+//     if (new_num === 1) {
+//       happy_nums.push(pocetniBroj);
+//       new_num = 0;
+//       break;
+//     } else if (new_num === start) {
+//       new_num = 0;
+//       break;
+//     }
+//     num = new_num;
+//     new_num = 0;
+//   }
+//   pocetniBroj++;
+// }
 
-console.log(happy_nums);
+// console.log(happy_nums);
 
 // -----------------------------------------------------------------------------------------------------------------
+
+// liste = ["apple", "banana", "kiwi"];
+//          0        1         2
+
+//Objektiiii
+
+// var1 = {
+//   fisrtname: "Daris",
+//   lastname: 15,
+//   nesto1: true,
+// };
+
+// console.log(var1);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// ime = prompt("Unesite vase ime");
+// prezime = prompt("Unesite vase prezime");
+
+// person = {
+//   firstname: ime,
+//   lastname: prezime,
+// };
+
+// console.log(person);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 50,
+//   eyeColor: "blue",
+// };
+
+// console.log(person);
+
+// delete person.lastName;
+
+// console.log(person);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// unos = parseInt(prompt("Unesi broj"));
+
+// console.log(unos * -1);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// unos = prompt("proveri da li je rec palindrom");
+// var1 = "";
+
+// for (i = unos.length - 1; i >= 0; i--) {
+//   var1 += unos[i];
+// }
+// if (var1 === unos) {
+//   console.log("Palindrom jeee");
+// } else {
+//   console.log("Nijee");
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// Domaci napraviti program za izracuna faktorijal unetog broja
