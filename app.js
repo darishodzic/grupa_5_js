@@ -586,3 +586,25 @@
 //i ona vraca string sa prvim velikim slovom a sva ostala mala
 
 // -----------------------------------------------------------------------------------------------------------------
+
+// function fixer(string) {
+//   return string[0].toUpperCase() + string.substr(1).toLowerCase();
+// }
+
+// str = prompt("Unesite neki string;");
+
+// alert(fixer(str));
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// function twiceAsOld(dadY, sonY) {
+//   razlika = dadY - sonY;
+//   res = razlika - sonY;
+//   console.log("Rezultat", res);
+// }
+
+// twiceAsOld(44, 18);
+
+// -----------------------------------------------------------------------------------------------------------------
+//Domaci
+//https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
