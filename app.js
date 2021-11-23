@@ -608,3 +608,63 @@
 // -----------------------------------------------------------------------------------------------------------------
 //Domaci
 //https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
+
+//Resenje
+
+// niz = [
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   false,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+// ];
+
+// function countSheeps(arrayOfSheep) {
+//   brojac = 0;
+//   for (sheep of arrayOfSheep) {
+//     if (sheep) {
+//       brojac++;
+//     }
+//   }
+//   return brojac;
+// }
+
+// sheepL = countSheeps(niz);
+// console.log(sheepL);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// https://www.codewars.com/kata/542c0f198e077084c0000c2e/train/javascript
+
+// function getDivisorsCnt(n) {
+//   brojac = 0;
+//   for (i = 1; i <= n; i++) {
+//     if (n % i == 0) {
+//       brojac++;
+//     }
+//   }
+
+//   return brojac;
+// }
+// -----------------------------------------------------------------------------------------------------------------
+
+//https://www.codewars.com/kata/586f6741c66d18c22800010a/train/javascript
