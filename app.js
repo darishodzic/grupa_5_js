@@ -673,3 +673,57 @@
 
 //Domaci
 //https://www.codewars.com/kata/59f061773e532d0c87000d16/train/javascript
+
+//Function Declaration and Function Expressions
+
+// function var1 (){
+
+// }
+
+// var1()
+
+// var2 = function () {
+
+// };
+
+// var2()
+
+//Objects
+
+// osoba = {
+//   name: "Daris",
+//   age: 16,
+//   sayHello: function () {
+//     console.log("Hello", this.name);
+//   },
+// };
+
+// osoba.sayHello();
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// a = [1, 2, 3, 4, 5];
+
+// console.log(a);
+
+// aK = a.map(function (el) {
+//   return el ** 2;
+// });
+
+// console.log(aK);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// function doubleNumbers(arr) {
+//   arrN = arr.map(function (el) {
+//     return el * 2;
+//   });
+
+//   return arrN;
+// }
+
+// console.log(doubleNumbers([2, 5, 100]));
+
+// -----------------------------------------------------------------------------------------------------------------
+
+//Domaci zadatak broj 2 sa https://coursework.vschool.io/array-map-exercises/
