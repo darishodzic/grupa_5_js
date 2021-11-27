@@ -727,3 +727,159 @@
 // -----------------------------------------------------------------------------------------------------------------
 
 //Domaci zadatak broj 2 sa https://coursework.vschool.io/array-map-exercises/
+
+// -----------------------------------------------------------------------------------------------------------------
+//foreach
+
+// numbers = [45, 4, 9, 16, 25];
+
+// numbers.forEach(function (el) {
+//   console.log(el);
+// });
+
+// -----------------------------------------------------------------------------------------------------------------
+//filter
+
+// numbers = [45, 4, 9, 16, 25];
+
+// fNiz = numbers.filter(function (el) {
+//   return el % 2 === 0;
+// });
+
+// console.log(fNiz);
+
+// -----------------------------------------------------------------------------------------------------------------
+//every
+
+// numbers = [45, 4, 9, 16, 25];
+
+// isAllHigh = numbers.every(function (el) {
+//   return el > 1;
+// });
+
+// console.log(isAllHigh);
+
+// -----------------------------------------------------------------------------------------------------------------
+//some
+
+// numbers = [45, 4, 9, 16, 25];
+
+// isSomeoneHigh = numbers.some(function (el) {
+//   return el > 108;
+// });
+
+// console.log(isSomeoneHigh);
+
+// -----------------------------------------------------------------------------------------------------------------
+//indexOf
+
+// fruits = ["Apple", "Orange", "Apple", "Mango"];
+
+// i = fruits.indexOf("Orange");
+
+// console.log(i);
+
+// -----------------------------------------------------------------------------------------------------------------
+//includes
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// a = fruits.includes("Orange");
+
+// console.log(a);
+
+// -----------------------------------------------------------------------------------------------------------------
+//find
+
+// numbers = [4, 9, 16, 25, 29];
+
+// a = numbers.find((el) => {
+//   return el > 18;
+// });
+
+// console.log(a);
+
+// -----------------------------------------------------------------------------------------------------------------
+//vrste funkcija
+
+// function var1() {}
+
+// var2 = function () {};
+
+// var3 = () => {
+//   console.log("Arrow function");
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// ljudi = [
+//   {
+//     name: "Angelina Jolie",
+//     age: 80,
+//   },
+//   {
+//     name: "Eric Jones",
+//     age: 2,
+//   },
+//   {
+//     name: "Paris Hilton",
+//     age: 5,
+//   },
+//   {
+//     name: "Kayne West",
+//     age: 16,
+//   },
+//   {
+//     name: "Bob Ziroll",
+//     age: 100,
+//   },
+// ];
+
+// function provera(ljudi) {
+//   dozvola = ljudi.map((el) => {
+//     if (el.age > 18) {
+//       return `${el.name} moze`;
+//     } else {
+//       return `${el.name} ne`;
+//     }
+//   });
+//   console.log(dozvola);
+// }
+
+// provera(ljudi);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// ljudi = [
+//   {
+//     name: "Angelina Jolie",
+//     age: 80,
+//   },
+//   {
+//     name: "Eric Jones",
+//     age: 2,
+//   },
+//   {
+//     name: "Paris Hilton",
+//     age: 5,
+//   },
+//   {
+//     name: "Kayne West",
+//     age: 16,
+//   },
+//   {
+//     name: "Bob Ziroll",
+//     age: 100,
+//   },
+// ];
+
+// imenaLjudi = ljudi.map((el) => {
+//   return el.name;
+// });
+
+// console.log(imenaLjudi);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+//DOMACI
+//https://coursework.vschool.io/array-filter-exercises/
