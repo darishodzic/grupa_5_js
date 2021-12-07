@@ -920,3 +920,85 @@
 // -----------------------------------------------------------------------------------------------------------------
 //Domaci
 //https://www.codewars.com/kata/5bb3e299484fcd5dbb002912/train/javascript
+
+// -----------------------------------------------------------------------------------------------------------------
+//DOM
+
+// mainH = document.getElementById("glavniNaslov");
+
+// mainH.innerText = "hahahahhaah";
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// h1E = document.getElementsByTagName("h1");
+// brojac = 1;
+// for (el of h1E) {
+//   el.innerText = brojac;
+//   brojac++;
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// elements = document.getElementsByClassName("main");
+
+// console.log(elements);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// elements = document.querySelector("main");
+
+// console.log(elements);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// element = document.getElementById("glavniNaslov");
+// element.style.backgroundColor = "red";
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// const handler = () => {
+//   el = document.getElementById("sporedniNaslov");
+//   el.style.backgroundColor = "blue";
+//   el.style.color = "white";
+//   el.style.margin = "50px";
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// handler = () => {
+//   document.getElementById("glavniNaslov").style.backgroundColor = "green";
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+//Changing colors
+
+// buttonHandler1 = (tag, color) => {
+//   elements = document.getElementsByTagName(tag);
+//   for (el of elements) {
+//     el.style.backgroundColor = color;
+//   }
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// handler = () => {
+//   document.getElementById("main").innerHTML = "<div><p>paragrap</p></div>";
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// handler = () => {
+//   el = document.createElement("h1");
+//   el.innerText = "nesto je dodato u h1";
+//   el.style.color = "red";
+//   document.getElementById("main").appendChild(el);
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// handler = () => {
+//   el = document.getElementById("id");
+//   document.getElementById("main").removeChild(el);
+// };
+
+// -----------------------------------------------------------------------------------------------------------------
