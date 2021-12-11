@@ -1002,3 +1002,50 @@
 // };
 
 // -----------------------------------------------------------------------------------------------------------------
+// score = document.getElementById("score");
+
+// btn1p = document.getElementById("btn+1");
+// btn1m = document.getElementById("btn-1");
+// btn5p = document.getElementById("btn+5");
+// btn5m = document.getElementById("btn-5");
+
+// btn10p = document.getElementById("btn+10");
+// btn10m = document.getElementById("btn-10");
+
+// function sum(kolicina, add) {
+//   if (add) {
+//     score.innerText = parseInt(score.innerText) + kolicina;
+//   } else {
+//     score.innerText = parseInt(score.innerText) - kolicina;
+//   }
+// }
+
+// btn1p.addEventListener("click", () => {
+//   sum(1, true);
+// });
+
+// btn1m.addEventListener("click", () => {
+//   sum(1, false);
+// });
+
+// btn5p.addEventListener("click", () => {
+//   sum(5, true);
+// });
+
+// btn5m.addEventListener("click", () => {
+//   sum(5, false);
+// });
+
+// btn10p.addEventListener("click", () => {
+//   sum(10, true);
+// });
+
+// btn10m.addEventListener("click", () => {
+//   sum(10, false);
+// });
+// -----------------------------------------------------------------------------------------------------------------
+//Domaci:CroCoder logo
+//https://crocoder.dev/blog/the-dom-exercises/
+
+//Domaci:
+//https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/javascript
