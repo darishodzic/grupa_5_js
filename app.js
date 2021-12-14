@@ -1049,3 +1049,7 @@
 
 //Domaci:
 //https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/javascript
+
+//Domaci:
+
+//https://www.codewars.com/kata/5982619d2671576e90000017/train/javascript
