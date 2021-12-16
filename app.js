@@ -1053,3 +1053,14 @@
 //Domaci:
 
 //https://www.codewars.com/kata/5982619d2671576e90000017/train/javascript
+
+main = document.getElementById("main");
+
+ul = document.createElement("ul");
+main.appendChild(ul);
+
+for (i = 0; i < 50; i++) {
+  li = document.createElement("li");
+  li.innerText = i;
+  ul.appendChild(li);
+}
