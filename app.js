@@ -1054,13 +1054,28 @@
 
 //https://www.codewars.com/kata/5982619d2671576e90000017/train/javascript
 
-main = document.getElementById("main");
+// main = document.getElementById("main");
 
-ul = document.createElement("ul");
-main.appendChild(ul);
+// ul = document.createElement("ul");
+// main.appendChild(ul);
 
-for (i = 0; i < 50; i++) {
-  li = document.createElement("li");
-  li.innerText = i;
-  ul.appendChild(li);
-}
+// for (i = 0; i < 50; i++) {
+//   li = document.createElement("li");
+//   li.innerText = i;
+//   ul.appendChild(li);
+// }
+// -----------------------------------------------------------------------------------------------------------------
+
+// const unos = document.getElementById("unos");
+// const btn = document.getElementById("btn");
+// const h1 = document.getElementById("h1");
+// btn.addEventListener("click", () => {
+//   if (unos.value > 0 && unos.value < 11) {
+//     h1.innerText = "OK";
+//   } else {
+//     h1.innerText = "NOT VALID";
+//   }
+// });
+
+// -----------------------------------------------------------------------------------------------------------------
+//Domaci:TODO LIST
