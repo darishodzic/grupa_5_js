@@ -1079,3 +1079,15 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 //Domaci:TODO LIST
+
+// btn = document.getElementById("btn");
+// btn.addEventListener("click", () => {
+//   if (btn.style.backgroundColor === "red") {
+//     btn.style.backgroundColor = "yellow";
+//   } else {
+//     btn.style.backgroundColor = "red";
+//   }
+// });
+
+//------------------------------------------------------------------------------
+//Domaci : https://www.codewars.com/kata/57f7796697d62fc93d0001b8/train/javascript
