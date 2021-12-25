@@ -1094,3 +1094,51 @@
 
 //------------------------------------------------------------------------------
 //Domaci : https://www.codewars.com/kata/585c50e75d0930e6a7000336/train/javascript
+
+const main = document.getElementById("main");
+const numOfColors = parseInt(prompt("Unesi kolicinu boja"));
+const boje = [];
+const remove = document.getElementById("remove");
+const colorize = document.getElementById("colorize");
+for (i = 0; i < numOfColors; i++) {
+  boje.push(prompt(`Unesi boju ${i + 1}`));
+}
+
+lista = document.createElement("ul");
+
+const AppendingColors = (boje) => {
+  boje.forEach((el) => {
+    a = document.createElement("li");
+    a.innerText = el;
+    lista.appendChild(a);
+  });
+  main.appendChild(lista);
+};
+
+AppendingColors(boje);
+//Remove btn code
+
+const removeElement = () => {
+  removeColor = prompt("Unesi boju za remove");
+  filteredColors = boje.filter((boja) => boja != removeColor);
+  main.removeChild(lista);
+  lista = document.createElement("ul");
+
+  AppendingColors(filteredColors);
+};
+
+remove.addEventListener("click", removeElement);
+
+const colorizee = () => {
+  main.removeChild(lista);
+  lista = document.createElement("ul");
+  boje.forEach((el) => {
+    a = document.createElement("li");
+    a.innerText = el;
+    a.style.backgroundColor = el;
+    lista.appendChild(a);
+  });
+  main.appendChild(lista);
+};
+
+colorize.addEventListener("click", colorizee);
